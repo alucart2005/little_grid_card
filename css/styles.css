@@ -102,7 +102,7 @@ main .responsive-container .grid .grid-columns .product .product-content {
   align-items: center;
   justify-content: space-between;
   transition: 0.15s ease;
-  background: linear-gradient(0deg, rgba(151, 73, 139, 0.5) 0%, rgba(155, 78, 23, 0) 100%);
+  background: linear-gradient(0deg, rgba(165, 63, 22, 0.5) 10%, rgba(47, 181, 69, 0.2) 100%);
 }
 main .responsive-container .grid .grid-columns .product .product-content .product-info {
   display: flex;
@@ -132,4 +132,18 @@ main .responsive-container .grid .grid-columns .product .product-content .produc
 main .responsive-container .grid .grid-columns .product .product-content .product-action:hover, main .responsive-container .grid .grid-columns .product .product-content .product-action:focus {
   background-color: transparent;
   color: rgba(169, 55, 55, 0.8);
+}
+
+@media (max-width: 750px) {
+  main .responsive-container .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 500px) {
+  header .header-content {
+    flex-direction: column;
+  }
+  main .responsive-container .grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
 }/*# sourceMappingURL=styles.css.map */
