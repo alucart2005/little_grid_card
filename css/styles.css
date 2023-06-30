@@ -1,1 +1,59 @@
-/*# sourceMappingURL=styles.css.map */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: poppins, sans-serif;
+}
+
+body {
+  background-color: rgb(34, 34, 34);
+  color: white;
+}
+
+a {
+  color: inherit;
+  font-weight: bold;
+  margin-left: 1.5rem;
+  text-decoration: none;
+  font-size: 1rem;
+}
+a:hover {
+  color: red;
+}
+
+header {
+  border-bottom: 1px solid #454444;
+  min-height: 60px;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  display: flex;
+  justify-content: center;
+}
+header .header-content {
+  display: flex;
+  width: 100%;
+  padding: 0 1.25rem;
+  align-items: center;
+  justify-content: space-between;
+}
+header .header-content .header-logo .logo {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+header .header-content .header-navigation {
+  display: flex;
+  align-items: center;
+}
+header .header-content .header-navigation .link-button {
+  display: flex;
+  align-items: center;
+  background-color: black;
+  border-radius: 0.35rem;
+  padding: 0.5rem 1.25rem;
+}
+header .header-content .header-navigation .link-button ion-icon {
+  font-size: 1.25rem;
+  color: rgb(205, 175, 203);
+  margin-left: 0.5rem;
+}/*# sourceMappingURL=styles.css.map */
